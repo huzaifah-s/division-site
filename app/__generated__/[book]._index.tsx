@@ -11,7 +11,7 @@ import { Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as Dial
 
       export const projectId = "574df005-779e-45a7-b2d6-556fa0fbe001";
 
-      export const lastPublished = "2025-11-10T15:18:07.286Z";
+      export const lastPublished = "2025-11-10T16:02:35.621Z";
 
       export const siteName = "Division AI - AI";
 

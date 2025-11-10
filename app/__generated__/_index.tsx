@@ -11,7 +11,7 @@ import { Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as Dial
 
       export const projectId = "574df005-779e-45a7-b2d6-556fa0fbe001";
 
-      export const lastPublished = "2025-11-10T15:18:07.286Z";
+      export const lastPublished = "2025-11-10T16:02:35.621Z";
 
       export const siteName = "Division AI - AI";
 
@@ -29,9 +29,24 @@ import { Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as Dial
 
       
             
+            const Script = ({children, ...props}: Record<string, string | boolean>) => {
+              if (children == null) {
+                return <script {...props} />;
+              }
+
+              return <script {...props} dangerouslySetInnerHTML={{__html: children}} />;
+            };
+            const Style = ({children, ...props}: Record<string, string | boolean>) => {
+              if (children == null) {
+                return <style {...props} />;
+              }
+
+              return <style {...props} dangerouslySetInnerHTML={{__html: children}} />;
+            };
+            
 
             export const CustomCode = () => {
-              return (<></>);
+              return (<><Script async src={"https://www.googletagmanager.com/gtag/js?id=G-WWKBBBS468"}></Script><Script>{"\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-WWKBBBS468');\n"}</Script>{"\n\n"}<Script defer src={"https://cloud.umami.is/script.js"} data-website-id={"733180c3-6182-4905-8cdc-11b4e6c5d6cd"}></Script></>);
             }
           
 
