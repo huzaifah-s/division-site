@@ -20,6 +20,9 @@ type Pages = {
   "/style-guide": {
     params: {};
   };
+  "/book": {
+    params: {};
+  };
   "/robots.txt": {
     params: {};
   };
@@ -38,7 +41,7 @@ type Pages = {
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/sitemap.xml" | "/style-guide" | "/robots.txt" | "/_image/*" | "/*";
+    page: "/" | "/sitemap.xml" | "/style-guide" | "/book" | "/robots.txt" | "/_image/*" | "/*";
   };
   "routes/[sitemap.xml]._index.tsx": {
     id: "routes/[sitemap.xml]._index";
@@ -47,6 +50,10 @@ type RouteFiles = {
   "routes/[style-guide]._index.tsx": {
     id: "routes/[style-guide]._index";
     page: "/style-guide";
+  };
+  "routes/[book]._index.tsx": {
+    id: "routes/[book]._index";
+    page: "/book";
   };
   "routes/[robots.txt].tsx": {
     id: "routes/[robots.txt]";
@@ -70,6 +77,7 @@ type RouteModules = {
   "root": typeof import("./app/root.tsx");
   "routes/[sitemap.xml]._index": typeof import("./app/routes/[sitemap.xml]._index.tsx");
   "routes/[style-guide]._index": typeof import("./app/routes/[style-guide]._index.tsx");
+  "routes/[book]._index": typeof import("./app/routes/[book]._index.tsx");
   "routes/[robots.txt]": typeof import("./app/routes/[robots.txt].tsx");
   "routes/[_image].$": typeof import("./app/routes/[_image].$.ts");
   "routes/_index": typeof import("./app/routes/_index.tsx");

@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "574df005-779e-45a7-b2d6-556fa0fbe001";
 
-      export const lastPublished = "2025-11-07T12:21:13.999Z";
+      export const lastPublished = "2025-11-10T15:18:07.286Z";
 
       export const siteName = "Division AI - AI";
 
@@ -864,6 +864,9 @@ className={`w-box cuewl4i c1lvhfuu c1m9vg17 c1yy1h14 c1sql6pn c7snqt9 c12i6pqm`}
 </Slot>
 <Slot>
 <Fragment_1>
+<HtmlEmbed
+code={"<style>\n</style>"}
+className={`w-html-embed`} />
 <Box
 data-ws-tag="header"
 className={`w-box c1wfemhv c1hisa3c clizd39 c1g9gtxh c1yy1h14 cqslhsv c18tpy2o c7snqt9 c17xs2d0 c92hb4e c18na1fj cegqwhp c4a5f52 c1xn90a6 c1tx1w8l c1babebp c37c3mu`}>
@@ -894,7 +897,7 @@ className={`w-box c1yy1h14 c1pcbsnh c1vjljd6 c173q472 c19wh60j cd49bhv c16e8g5z 
 <Box
 className={`w-box c1yy1h14 c1vjljd6 c1up33q1 c1cs0osf caak56t c1mlvnzi cb9ctts c579h8g c1babebp c1rq10xq`}>
 <Link
-href={"#"}
+href={"/book"}
 className={`w-link c1mli5y2 cjadqu1 c19xm5bo c1hawyvp c4i0mym c8d7h91 cnlbkdv cfryvx9 c1c2cn49 c1zrf2b c688bfk c1tsi9oj c1kynbrv c1m87rmo c16bb09z c1x6f989 c1urcgko c1e47b5d c1zubka cbfhhrz c1pcbsnh c1vjljd6 c7snqt9 c8s27bf cmtzrf9 cjp4s5l c1t3zl8x cvvuwov c1lynz5u`}>
 {"Get Started"}
 </Link>
@@ -938,7 +941,7 @@ className={`w-box c13vdlm5 c1pexo8i c1yy1h14 cqslhsv c18tpy2o c1up33q1 c1i96bmg 
 <Box
 className={`w-box c1yy1h14 c1vjljd6 c1up33q1 c1cs0osf caak56t c1mlvnzi cb9ctts c579h8g c1babebp c1rq10xq`}>
 <Link
-href={"#"}
+href={"/book"}
 className={`w-link c1mli5y2 cjadqu1 c19xm5bo c1hawyvp c4i0mym c8d7h91 cnlbkdv cfryvx9 c1c2cn49 c1zrf2b c688bfk c1tsi9oj c1kynbrv c1m87rmo c16bb09z c1x6f989 c1urcgko c1e47b5d c1zubka cbfhhrz c1pcbsnh c1vjljd6 c7snqt9 c8s27bf cmtzrf9 cjp4s5l c1t3zl8x cvvuwov c1lynz5u`}>
 {"Get Started"}
 </Link>
@@ -970,7 +973,47 @@ className={`w-box c13vdlm5 c1pexo8i c1yy1h14 cqslhsv c18tpy2o c1up33q1 c1i96bmg 
 tag={"footer"}
 className={`w-box`}>
 <Box
-className={`w-box c13vdlm5 c1pexo8i c1yy1h14 cqslhsv c18tpy2o c1up33q1 c1i96bmg cbvaq1m cvy9o08 cjd1hdu`} />
+className={`w-box c13vdlm5 c1pexo8i c1yy1h14 cqslhsv c18tpy2o c1up33q1 c1i96bmg cbvaq1m cvy9o08 cjd1hdu`}>
+<Box
+data-ws-tag="footer"
+aria-label={"Footer Navigation"}
+className={`w-box cm8mp6k c1nhtau8 cdj4ouf c13vdlm5 c1yy1h14 cqslhsv c18tpy2o c1ba49g0 cx19pg7 cqo9gb0 c1g9gtxh c1ljqnf6`}>
+<Box
+className={`w-box c13vdlm5 c1pexo8i c1yy1h14 cqslhsv c18tpy2o c7snqt9 c1kv8e9p cymkexg cvy9o08 cjd1hdu`}>
+<Box
+className={`w-box c1yy1h14 cqslhsv c1vjljd6 c1kv8e9p cymkexg`}>
+<Slot>
+<Fragment_1>
+<Link
+href={"#"}
+aria-label={"Replace title here"}
+className={`w-link`}>
+<Image
+src={"/assets/Division_AI_Logo_ak15lTakLNCm56yKYxUvb.svg"}
+width={298}
+height={81}
+alt={""}
+className={`w-image cedizzd caf6nod`} />
+</Link>
+</Fragment_1>
+</Slot>
+<Box
+data-ws-tag="nav"
+className={`w-box`}>
+</Box>
+</Box>
+<Separator
+className={`w-separator c4lcrar cvpjddj c5194n1 cdj4ouf cv7xc4j`} />
+<Box
+className={`w-box c1yy1h14 c1pcbsnh c1vjljd6 c7snqt9 c1kv8e9p cymkexg c1rqccsq czzohxg`}>
+<Paragraph
+className={`w-paragraph c103lu8d c1oknqg6 c1e47b5d c1lq0qt1 cjp4s5l c1dcoryb c1xb0n0h`}>
+{"© 2025 Division AI - All rights reserved"}
+</Paragraph>
+</Box>
+</Box>
+</Box>
+</Box>
 </Box>
 </Fragment_1>
 </Slot>
