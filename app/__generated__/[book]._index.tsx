@@ -11,7 +11,7 @@ import { Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as Dial
 
       export const projectId = "574df005-779e-45a7-b2d6-556fa0fbe001";
 
-      export const lastPublished = "2025-11-10T16:02:35.621Z";
+      export const lastPublished = "2025-11-10T16:38:20.394Z";
 
       export const siteName = "Division AI - AI";
 
@@ -81,14 +81,14 @@ code={"<style>\n</style>"}
 className={`w-html-embed`} />
 <Box
 data-ws-tag="header"
-className={`w-box c1wfemhv c1hisa3c clizd39 c1g9gtxh c1yy1h14 cqslhsv c18tpy2o c7snqt9 c17xs2d0 c92hb4e c18na1fj cegqwhp c4a5f52 c1xn90a6 c1tx1w8l c1babebp c37c3mu`}>
+className={`w-box c1wfemhv c1hisa3c clizd39 c1g9gtxh c1yy1h14 cqslhsv c18tpy2o c7snqt9 cqrl6b5 c1k8uffu c1xmiuq c17xs2d0 c92hb4e c18na1fj cegqwhp c4a5f52 c1xn90a6 c1tx1w8l c1babebp c37c3mu`}>
 <Box
 className={`w-box c13vdlm5 c1pexo8i c1yy1h14 c1pcbsnh c1vjljd6 c5o6vxz c1kv8e9p cymkexg cvy9o08 cjd1hdu`}>
 <Slot>
 <Fragment_1>
 <Link
 id={"logo"}
-href={"#"}
+href={"/"}
 aria-label={"Replace title here"}
 className={`w-link c1yy1h14 c1vjljd6 c1up33q1 c1nz4vrs cisko3o csf1h5l c19acw49`}>
 <Image
@@ -118,8 +118,9 @@ className={`w-link c1mli5y2 cjadqu1 c19xm5bo c1hawyvp c4i0mym c8d7h91 cnlbkdv cf
 </Slot>
 </Box>
 <Box
-className={`w-box c19lwkmo cw2bd8p`}>
-<Dialog>
+className={`w-box c19lwkmo c1nz4vrs cw2bd8p`}>
+<Dialog
+open={false}>
 <DialogTrigger>
 <Button
 ox-menu-button={""}
@@ -142,9 +143,9 @@ className={`w-html-embed`} />
 </Button>
 </DialogTrigger>
 <DialogOverlay
-className={`w-dialog-overlay cfwbj4l csjcq1i cyuqcay c1vxuysr c1g9gtxh ceyle9l c1yy1h14 cqslhsv cdargc7 cxpm6wx c1c79ghc`}>
+className={`w-dialog-overlay cfwbj4l csjcq1i c1vxuysr c1g9gtxh ceyle9l c1yy1h14 cqslhsv cdargc7 cxpm6wx c1c79ghc c79k29j c1uisu9y cne98yo c1psmtwm`}>
 <DialogContent
-className={`w-dialog-content c13vdlm5 c1yy1h14 cqslhsv c930xhe c1avth1u c1vxuysr cdj4ouf cpa7f30 chfse1z c17xs2d0 c92hb4e c18na1fj cegqwhp`}>
+className={`w-dialog-content c13vdlm5 c1yy1h14 cqslhsv c930xhe c1avth1u c1vxuysr cdj4ouf cpa7f30 chfse1z c1nz4vrs c17xs2d0 c92hb4e c18na1fj cegqwhp`}>
 <Box
 data-ws-tag="nav"
 className={`w-box c13vdlm5 c1pexo8i c1yy1h14 cqslhsv c18tpy2o c1up33q1 c1i96bmg cbvaq1m cvy9o08 cjd1hdu c1xn90a6 c1tx1w8l c1d7us0l c43b69p`}>
@@ -208,7 +209,7 @@ className={`w-box c1yy1h14 cqslhsv c1vjljd6 c1kv8e9p cymkexg`}>
 <Slot>
 <Fragment_1>
 <Link
-href={"#"}
+href={"/"}
 aria-label={"Replace title here"}
 className={`w-link`}>
 <Image

@@ -10,7 +10,7 @@ import { HtmlEmbed as HtmlEmbed } from "@webstudio-is/sdk-components-react";
 
       export const projectId = "574df005-779e-45a7-b2d6-556fa0fbe001";
 
-      export const lastPublished = "2025-11-10T16:02:35.621Z";
+      export const lastPublished = "2025-11-10T16:38:20.394Z";
 
       export const siteName = "Division AI - AI";
 

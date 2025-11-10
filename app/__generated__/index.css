@@ -237,34 +237,6 @@
     text-transform: none;
     margin: 0
   }
-  div.w-dialog-overlay {
-    box-sizing: border-box;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    outline-width: 1px
-  }
-  div.w-dialog-content {
-    box-sizing: border-box;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    outline-width: 1px
-  }
-  button.w-close-button {
-    background-color: transparent;
-    background-image: none;
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    box-sizing: border-box;
-    text-transform: none;
-    border: 1px solid rgba(226, 232, 240, 1);
-    margin: 0;
-    padding: 0px
-  }
   h1.w-heading {
     box-sizing: border-box;
     border-top-width: 1px;
@@ -361,6 +333,34 @@
     border-right-style: none;
     border-left-style: none;
     border-bottom-style: none
+  }
+  div.w-dialog-overlay {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  div.w-dialog-content {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  button.w-close-button {
+    background-color: transparent;
+    background-image: none;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    box-sizing: border-box;
+    text-transform: none;
+    border: 1px solid rgba(226, 232, 240, 1);
+    margin: 0;
+    padding: 0px
   }
   div.w-navigation-menu {
     box-sizing: border-box;
@@ -2086,14 +2086,17 @@
   .c1vv23wf {
     row-gap: var(--gap-xs, 0.5rem)
   }
+  .cqrl6b5 {
+    position: sticky
+  }
+  .c1xmiuq {
+    z-index: 100
+  }
   .c16e8g5z {
     column-gap: var(--spacing-default)
   }
   .c1570f9i {
     row-gap: var(--spacing-default)
-  }
-  .c1n1m9uo:focus-visible {
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 1), 0 0 0 calc(2px + 2px) rgb(148,163,184)
   }
   .c1lzqg8m {
     grid-template-columns: var(--grid-2)
@@ -2297,6 +2300,9 @@
   .c1qr5hc4 {
     padding-bottom: 8px
   }
+  .c1n1m9uo:focus-visible {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 1), 0 0 0 calc(2px + 2px) rgb(148,163,184)
+  }
 }
 @media all and (max-width: 991px) {
   .csf1h5l {
@@ -2410,12 +2416,6 @@
   .c37c3mu {
     justify-content: center
   }
-  .c1d7us0l {
-    column-gap: var(--gap-s)
-  }
-  .c43b69p {
-    row-gap: var(--gap-s)
-  }
   .c1gw4ozi {
     grid-template-columns: var(--grid-1)
   }
@@ -2457,6 +2457,18 @@
   }
   .cw3nyoh {
     width: 45%
+  }
+  .cne98yo {
+    position: fixed
+  }
+  .c1psmtwm {
+    pointer-events: none
+  }
+  .c1d7us0l {
+    column-gap: var(--gap-s)
+  }
+  .c43b69p {
+    row-gap: var(--gap-s)
   }
 }
 @media all and (max-width: 767px) {
